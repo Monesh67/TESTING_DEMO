@@ -1,0 +1,9 @@
+{
+	"name": "demotesting99",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d2a8f14e-289a-45c2-bb87-0cd69226e012",
+		"tenantId": "ffdde762-0379-4f5d-84f8-94f1966af5bf"
+	}
+}
