@@ -1,0 +1,6 @@
+rollno,name,batch,dept,marks
+1,koushik,2022,cse,500
+2,anand,2022,ece,499
+3,monesh,2022,ece,459
+4,surya,2019,cse,482
+5,gokul,2022,cce,500
