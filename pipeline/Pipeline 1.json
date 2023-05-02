@@ -40,6 +40,30 @@
 					"enableStaging": false,
 					"translator": {
 						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"type": "String",
+									"ordinal": 1
+								},
+								"sink": {
+									"type": "String",
+									"physicalType": "String",
+									"ordinal": 1
+								}
+							},
+							{
+								"source": {
+									"type": "String",
+									"ordinal": 2
+								},
+								"sink": {
+									"type": "String",
+									"physicalType": "String",
+									"ordinal": 2
+								}
+							}
+						],
 						"typeConversion": true,
 						"typeConversionSettings": {
 							"allowDataTruncation": true,
@@ -62,7 +86,7 @@
 			}
 		],
 		"annotations": [],
-		"lastPublishTime": "2023-04-27T06:13:27Z"
+		"lastPublishTime": "2023-05-02T08:09:51Z"
 	},
 	"type": "Microsoft.Synapse/workspaces/pipelines"
 }
