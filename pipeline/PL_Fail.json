@@ -1,0 +1,21 @@
+{
+	"name": "PL_Fail",
+	"properties": {
+		"activities": [
+			{
+				"name": "Fail1",
+				"type": "Fail",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"message": "TestCases_Failed",
+					"errorCode": {
+						"value": "@pipeline().Pipeline",
+						"type": "Expression"
+					}
+				}
+			}
+		],
+		"annotations": []
+	}
+}
