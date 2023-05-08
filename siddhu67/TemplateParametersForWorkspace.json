@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"workspaceName": {
+			"value": "siddhu67"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"SqlServer1_connectionString": {
+			"value": ""
+		},
+		"monesh67-WorkspaceDefaultSqlServer_connectionString": {
+			"value": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=tcp:monesh67.sql.azuresynapse.net,1433;Initial Catalog=@{linkedService().DBName}"
+		},
+		"siddhu67-WorkspaceDefaultSqlServer_connectionString": {
+			"value": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=tcp:siddhu67.sql.azuresynapse.net,1433;Initial Catalog=@{linkedService().DBName}"
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://moneshdls.dfs.core.windows.net/"
+		},
+		"monesh67-WorkspaceDefaultStorage_properties_typeProperties_url": {
+			"value": "https://moneshdls.dfs.core.windows.net"
+		},
+		"siddhu67-WorkspaceDefaultStorage_properties_typeProperties_url": {
+			"value": "https://moneshdls.dfs.core.windows.net"
+		}
+	}
+}
