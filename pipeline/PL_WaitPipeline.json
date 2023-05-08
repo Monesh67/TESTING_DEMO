@@ -1,0 +1,17 @@
+{
+	"name": "PL_WaitPipeline",
+	"properties": {
+		"activities": [
+			{
+				"name": "WaitFor",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 500
+				}
+			}
+		],
+		"annotations": []
+	}
+}

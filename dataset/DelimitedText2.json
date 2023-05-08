@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "demo1",
+				"fileName": "Out.csv",
 				"folderPath": "output",
 				"fileSystem": "monesh"
 			},
